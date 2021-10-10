@@ -2,9 +2,7 @@
  * Connection to Mongodb database
  */
 
-
 const database = {};
-
 
 database.connect = async () => {
 
