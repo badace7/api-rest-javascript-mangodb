@@ -7,8 +7,8 @@ const database = {};
 database.connect = async () => {
 
     const MongoClient = require('mongodb').MongoClient;
-    const url = 'mongodb://localhost:27017';
-    const dbName = 'parkingApi';
+    const url = '';
+    const dbName = '';
     let db;
 
     MongoClient.connect(url, (err, client) => {
